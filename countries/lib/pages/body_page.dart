@@ -8,9 +8,9 @@ class BodyPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final List<MyBox> countries = [
       MyBox(
-        flag: Image.asset("assets/japan.png"),
-        name: "Japan",
-        language: "Japanese",
+        flag: Image.asset("assets/philippines.jpg"),
+        name: "Philippines",
+        language: "Filipino",
         continent: "Asia",
       ),
       MyBox(
@@ -20,22 +20,22 @@ class BodyPage extends StatelessWidget {
         continent: "Asia",
       ),
       MyBox(
+        flag: Image.asset("assets/india.png"),
+        name: "India",
+        language: "Hindi",
+        continent: "Asia",
+      ),
+      MyBox(
+        flag: Image.asset("assets/japan.png"),
+        name: "Japan",
+        language: "Japanese",
+        continent: "Asia",
+      ),
+      MyBox(
         flag: Image.asset("assets/france.png"),
         name: "France",
         language: "French",
         continent: "Europe",
-      ),
-      MyBox(
-        flag: Image.asset("assets/brazil.jpeg"),
-        name: "Brazil",
-        language: "Portuguese",
-        continent: "South America",
-      ),
-      MyBox(
-        flag: Image.asset("assets/canada.png"),
-        name: "Canada",
-        language: "English",
-        continent: "North America",
       ),
       MyBox(
         flag: Image.asset("assets/germany.png"),
@@ -44,28 +44,34 @@ class BodyPage extends StatelessWidget {
         continent: "Europe",
       ),
       MyBox(
-        flag: Image.asset("assets/india.png"),
-        name: "India",
-        language: "Hindi",
-        continent: "Asia",
-      ),
-      MyBox(
         flag: Image.asset("assets/italy.png"),
         name: "Italy",
         language: "Italian",
         continent: "Europe",
       ),
       MyBox(
-        flag: Image.asset("assets/kenya.png"),
-        name: "Kenya",
-        language: "Swahili",
-        continent: "Africa",
+        flag: Image.asset("assets/canada.png"),
+        name: "Canada",
+        language: "English",
+        continent: "North America",
       ),
       MyBox(
         flag: Image.asset("assets/mexico.png"),
         name: "Mexico",
         language: "Spanish",
         continent: "North America",
+      ),
+      MyBox(
+        flag: Image.asset("assets/brazil.jpeg"),
+        name: "Brazil",
+        language: "Portuguese",
+        continent: "South America",
+      ),
+      MyBox(
+        flag: Image.asset("assets/kenya.png"),
+        name: "Kenya",
+        language: "Swahili",
+        continent: "Africa",
       ),
     ];
 

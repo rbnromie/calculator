@@ -8,13 +8,13 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 200, 200, 200),
+        backgroundColor: Color.fromARGB(255, 73, 73, 255),
         title: const Center(
           child: Text(
             "Countries",
             style: TextStyle(
-              color: Colors.white,
-              fontSize: 32,
+              color: Color.fromARGB(255, 255, 255, 255),
+              fontSize: 30,
             ),
           ),
         ),

@@ -14,12 +14,6 @@ class BodyPage extends StatelessWidget {
         continent: "Asia",
       ),
       MyBox(
-        flag: Image.asset("assets/philippines.jpg"),
-        name: "Philippines",
-        language: "Filipino",
-        continent: "Asia",
-      ),
-      MyBox(
         flag: Image.asset("assets/india.png"),
         name: "India",
         language: "Hindi",

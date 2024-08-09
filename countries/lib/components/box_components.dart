@@ -18,7 +18,7 @@ class MyBox extends StatelessWidget {
     return Container(
       height: 130,
       decoration: const BoxDecoration(
-          color: Color.fromARGB(255, 224, 224, 224),
+          color: Color.fromARGB(255, 187, 187, 187),
           borderRadius: BorderRadius.all(Radius.circular(10))),
       child: Row(
         children: [
@@ -45,21 +45,21 @@ class MyBox extends StatelessWidget {
                   style: const TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w600,
-                      color: Color.fromARGB(255, 0, 0, 0)),
+                      color: Colors.white),
                 ),
                 Text(
                   language,
                   style: const TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w600,
-                      color: Color.fromARGB(255, 0, 0, 0)),
+                      color: Colors.white),
                 ),
                 Text(
                   continent,
                   style: const TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w600,
-                      color: Color.fromARGB(255, 0, 0, 0)),
+                      color: Colors.white),
                 ),
               ],
             ),
